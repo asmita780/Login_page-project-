@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main box  */
+.container {
+    background-color: gray;
+    /* background: cover ; */
+    width: 1470px;
+    height: 560px;
+    position: fixed;
+    top: 45px;
+    margin-top: 25px;
+
+}
+
+
+/* under main box(child) */
+.child {
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 30%;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 10px;
+
+    
+    
+}
+
+
+
+/* search box */
+.child2 {
+    background-color: #f2f2f2;
+    width: 1292px;
+    height: 100px;
+    /* position: relative; */
+    /* top: 30px; */
+    /* left: 20%; */
+}
+
+.search {
+    position: absolute;
+    top: 30px;
+    left: 20%;
+}
+
+.search1 {
+    position: absolute;
+    top: 30px;
+    left: 44%;
+}
+
+
+/* login,home,search buttons */
+.button {
+    width: 50px;
+    height: 30px;
+    background-color: brown;
+    border-radius: 5px;
+    }
+
+
+
+.main {
+    width: 300px;
+    height: 30px;
+
+}
+
+
+#img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 15px;
+    left: 2%;
+}
+
+#z {
+    position: absolute;
+    top: 25px;
+    left: 95%;
+}
+
+#y {
+    position: absolute;
+    top: 25px;
+    left: 85%;
+}
+#x {
+    position: absolute;
+    top: 25px;
+    left: 75%;
+}
+
+#m {
+    position: absolute;
+    top: 20px;
+    left: 67%;
+
+}
+
+
